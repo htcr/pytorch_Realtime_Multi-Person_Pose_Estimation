@@ -5,8 +5,8 @@ import cv2
 import numpy as np
 import json
 import pandas as pd
-from pycocotools.coco import COCO
-from pycocotools.cocoeval import COCOeval
+#from pycocotools.coco import COCO
+#from pycocotools.cocoeval import COCOeval
 
 import torch
 from training.datasets.coco_data.preprocessing import (inception_preprocess,
